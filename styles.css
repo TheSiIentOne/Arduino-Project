@@ -1,0 +1,592 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+	
+	box-sizing: border-box;
+	margin: 0;
+
+	font-family: "Montserrat", sans-serif;
+
+}
+
+body {
+
+	display: flex;
+	flex-direction: column;
+
+	height: 100vh;
+
+	position: relative;
+
+}
+
+.pagina-header {
+
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: rgba(185, 185, 185, 0.377);
+
+	box-shadow: 0px 4px 10px rgba(189, 189, 189, 0.377);
+
+	z-index: 100;
+
+	width: 100%;
+
+	background-color: whitesmoke;
+
+}
+
+.header-upper {
+
+	display: flex;
+
+	width: 100%;
+
+	justify-content: space-between;
+
+}
+
+.header-upper h1 {
+
+	vertical-align: middle;
+
+}
+
+.header-upper div {
+
+	display: flex;
+
+	gap: 10px;
+
+	align-items: center;
+
+}
+
+.header-upper div a {
+
+	text-align: center;
+
+	text-decoration: none;
+
+	color: white;
+
+	border-radius: 1000px;
+
+	border-color: rgba(185, 185, 185, 0.377);
+
+	padding: 6px;
+
+	box-shadow: 2px 2px 5px rgba(150, 150, 150, 0.377);
+
+	font-size: 0.90rem;
+
+	background-color: #669900;
+
+}
+
+.header-upper div a:hover {
+
+	filter: brightness(120%);
+
+}
+
+#boton-registro {
+
+	background-color: white;
+	color: black;
+
+}
+
+.header-upper div a:visited {
+
+	text-decoration: none;
+
+}
+
+.header-upper div a h3 {
+
+	font-weight: lighter;
+
+}
+
+.nav-pagina {
+
+	padding-top: 10px;
+	padding-bottom: 5px;
+	width: 100%;
+
+}
+
+.nav-pagina ul {
+
+	display: flex;
+	list-style: none;
+
+	justify-content: space-evenly;
+
+	gap: 10px;
+
+	padding: 0;
+
+}
+
+.nav-pagina ul li a {
+
+	text-decoration: none;
+	color: black;
+
+}
+
+.nav-pagina ul li a:visited {
+
+	text-decoration: none;
+	color: black;
+
+}
+
+.pagina-footer {
+
+	margin-top: auto;
+
+	background-color: gainsboro;
+
+	width: 100%;
+
+	display: flex;
+
+	flex-direction: column;
+
+	align-items: center;
+
+}
+
+.derechos {
+	
+	display: flex;
+	flex-direction: row;
+
+	justify-content: space-evenly;
+
+	gap: 10px;
+
+	width: 100%;
+
+}
+
+.derechos p {
+
+	text-align: center;
+
+}
+
+.redes-sociales {
+
+	display: flex;
+
+	width: 33%;
+
+	justify-content: space-between ;
+
+}
+
+.icono-redsocial {
+
+	width: 37px;
+	height: 37px;
+
+}
+
+.pagina-seccion {
+
+	margin-left: auto;
+	margin-right: auto;
+
+	width: 83%;
+
+	margin-top: 10px;
+	margin-bottom: 10px;
+
+	display: flex;
+
+	flex-direction: column;
+
+	align-items: center;
+
+}
+
+.contenedor {
+
+	display: flex;
+
+	justify-content: space-evenly;
+
+
+	flex-wrap: wrap;
+
+	gap: 2px;
+
+}
+
+.servicio {
+
+	border-radius: 10px;
+
+	border-color: rgba(189, 189, 189, 0.377);
+
+	width: 32%;
+
+	display: flex;
+
+	flex-direction: column;
+
+	max-width: 400px;
+
+	box-shadow: 3px 3px 3px rgba(185, 185, 185, 0.377);
+
+	flex-grow: 1;
+
+}
+
+
+.servicio-titulo {
+
+	text-align: center;
+
+
+	min-height: 75px;
+
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+
+
+	border-color: rgba(189, 189, 189, 0.377);
+
+	display: flex;
+
+	align-items: center;
+	
+	justify-content: center;
+
+	flex-shrink: 0;
+
+	
+
+}
+
+.servicio-cuerpo {
+
+	padding: 5px;
+
+	display: flex;
+
+	flex-direction: column;
+
+	flex-grow: 1;
+
+	align-items: center;
+
+
+}
+
+.servicio-cuerpo img {
+
+	width: 100%;
+
+	max-height: 150px;
+
+	object-fit:cover;
+
+	padding: 5px;
+
+
+}
+
+.link-contacto-servicio {
+
+	text-align: center;
+
+	background-color: black;
+
+	border-radius: 7px;
+
+	padding: 2px;
+
+	width: 80%;
+
+}
+
+.link-contacto-servicio {
+
+	text-decoration: none;
+	color: white;
+
+}
+
+.link-contacto-servicio:hover {
+
+	background-color: white;
+	color: black;
+
+}
+
+.servicio-parrafo {
+
+	text-align: center;
+
+	color:rgb(83, 83, 83);
+
+	margin-top: 10px;
+	margin-bottom: 10px;
+
+}
+
+
+.servicio-titulo h3 {
+
+	text-align: center;
+
+}
+
+.color1 {
+
+	background-color: #5f5f5f;
+	color: gainsboro;
+
+}
+
+.color2 {
+
+	background-color: #424242;
+	color: gainsboro;
+
+}
+
+.color3 {
+
+	background-color: #0e0e0e;
+	color: gainsboro;
+}
+
+.comun {
+
+	padding: 10px;
+
+}
+
+.titulo-seccion {
+
+	color:rgb(83, 83, 83);
+
+	font-weight: 600;
+
+	margin-top: 5px;
+	margin-bottom: 5px;
+
+	text-align: center;
+
+}
+
+.imagen-seccion {
+
+	width: 90%;
+
+	margin-top: 5px;
+	margin-bottom: 5px;
+
+	max-width: 900px;
+
+}
+
+.parrafo-seccion {
+
+	color:rgb(83, 83, 83);
+	
+	margin-top: 5px;
+	margin-bottom: 5px;
+
+	text-align: justify;
+
+}
+
+.cover-pagina {
+
+	width: 100%;
+
+	margin-top: 10px;
+	margin-bottom: 10px;
+
+}
+
+.cover-contenedor {
+
+	width: 100%;
+
+	position: relative;
+
+}
+
+.cover-imagen {
+
+	width: 100%;
+	max-height: 300px;
+
+	object-fit: cover;
+
+	filter: brightness(50%);
+
+}
+
+.cover-container-texto {
+
+	position: absolute;
+	
+	text-align: center;
+	top: 50%;
+	left: 50%;
+
+	transform: translate(-50%, -50%);
+
+	z-index: 100;
+
+	
+
+	color: white;
+
+}
+
+.cover-titulo {
+
+	font-size: 2rem;
+
+}
+
+.cover-subtitulo {
+
+	font-size: 1rem;
+
+}
+
+.contenedor-equipo {
+
+	display: flex;
+	width: 100%;
+
+	justify-content: space-evenly;
+
+	gap: 10px;
+
+	flex-wrap: wrap;
+
+}
+
+.contenedor-integrante {
+
+	display: flex;
+	max-width: 300px;
+	width: 300px;
+	box-shadow: 4px 4px 5px rgba(100, 100, 100, 0.4);
+	flex-direction: column;
+	align-items: center;
+
+}
+
+.contenedor-imagen-integrante {
+
+	padding-top: 10px;
+	padding-bottom: 10px;
+
+}
+
+.imagen-integrante {
+
+	width: 175px;
+	height: 175px;
+	object-fit: cover;
+
+	border-radius: 50%;
+
+}
+
+.nombre-integrante {
+
+	padding-top: 10px;
+	padding-bottom: 10px;
+
+	text-align: center;
+
+}
+
+.nombre-integrante h3,h4 {
+
+	font-weight: lighter;
+
+}
+
+.redessociales-integrante {
+
+	padding-top: 10px;
+	padding-bottom: 10px;
+
+}
+
+.boton {
+
+	text-decoration: none;
+
+	font-size: 1.3rem;
+	color: white;
+	background-color: #669900;
+	padding: 7px 10px;
+	border-radius: 1000px;
+
+	box-shadow: 3px 3px 5px rgba(150, 150, 150, 0.50);
+
+}
+
+.boton:visited {
+
+	text-decoration: none;
+
+}
+
+.boton:hover {
+
+	filter: brightness(120%);
+
+}
+
+@media screen and (max-width: 1050px) {
+	
+	.nav-pagina ul {
+
+		flex-direction: column;
+		
+		align-items: center;
+
+
+	}
+
+	.derechos {
+
+		flex-direction: column;
+
+	}
+
+	.contenedor {
+
+		flex-direction: column;
+
+		gap: 20px;
+
+		align-items: center;
+
+	}
+
+	.servicio {
+
+		width: 80%;
+
+	}
+
+
+}

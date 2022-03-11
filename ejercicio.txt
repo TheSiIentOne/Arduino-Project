@@ -1,0 +1,9 @@
+Realiza una página web como la que se te proporciona en el ejemplo.
+
+La página web la deberás hacer de algún negocio, como en el ejemplo, que se hizo para un gimnasio.
+La página debe tener 5 vistas:
+ - Inicio.
+ - Quienes somos.
+ - Acerca de nosotros (historia del negocio).
+ - Servicios.
+- Contacto.
